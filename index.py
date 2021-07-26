@@ -1,4 +1,4 @@
-from app import app, server
+from app import app, server # despite not being used you still need to import these into the index file.
 
 from routes import render_page_content
 
